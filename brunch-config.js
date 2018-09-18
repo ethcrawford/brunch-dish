@@ -7,5 +7,9 @@ exports.files = {
 exports.plugins = {
   pug: {
     pugRuntime: false
+  },
+  sass: {
+    mode: "native",
+    precision: 8
   }
 };

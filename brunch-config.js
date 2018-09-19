@@ -1,7 +1,17 @@
 // See http://brunch.io for documentation.
 exports.files = {
-  javascripts: { joinTo: "js/app.js" },
-  stylesheets: { joinTo: "css/app.css" }
+  javascripts: {
+    joinTo: {
+      "js/app.js": /^app/,
+      "js/vendor.js": /^vendor/
+    }
+  },
+  stylesheets: {
+    joinTo: {
+      "css/app.css": /^app/,
+      "css/vendor.css": /^vendor/
+    }
+  }
 };
 
 exports.plugins = {

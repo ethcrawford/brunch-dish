@@ -13,3 +13,12 @@ exports.plugins = {
     precision: 8
   }
 };
+
+exports.modules = {
+  wrapper: false,
+  definition: false
+};
+
+exports.npm = {
+  enabled: false
+};

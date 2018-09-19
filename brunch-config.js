@@ -19,11 +19,10 @@ exports.files = {
     },
     order: {
       before: [
-        // "vendor/third.css"
+        "vendor/bootstrap/bootstrap-reboot-4.1.3.min.css",
+        "vendor/bootstrap/bootstrap-grid-4.1.3.min.css"
       ],
-      after: [
-        // "app/first.sass"
-      ]
+      after: ["app/sass/main.sass"]
     }
   }
 };

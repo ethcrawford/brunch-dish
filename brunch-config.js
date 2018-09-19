@@ -9,10 +9,10 @@ exports.files = {
     // App and vendor source will be placed in different files.
     order: {
       before: [
-        // "vendor/second.js"
+        "vendor/jquery/jquery-3.3.1.min.js"
       ],
       after: [
-        // "vendor/first.js"
+        "app/common.js"
       ]
     }
   },

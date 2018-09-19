@@ -8,13 +8,16 @@ html(lang="en-US")
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1")
 
+    link(rel='shortcut icon', type="image/x-icon", href='favicon.ico')
+    link(rel='manifest', href='manifest.json')
+
     block title
     link(rel="stylesheet" href="css/vendor.css")
     link(rel="stylesheet" href="css/app.css")
 
   body.base
-    include ../partials/_header.pug
+    include ../_partials/_header.pug
     block main
-    include ../partials/_footer.pug
+    include ../_partials/_footer.pug
     script(src="js/vendor.js")
     script(src="js/app.js")

@@ -8,12 +8,8 @@ exports.files = {
     // Define compilation order (optional). The default order is alphabetical.
     // App and vendor source will be placed in different files.
     order: {
-      before: [
-        "vendor/jquery/jquery-3.3.1.min.js"
-      ],
-      after: [
-        "app/common.js"
-      ]
+      before: ["vendor/jquery/jquery-3.3.1.min.js"],
+      after: ["app/common.js"]
     }
   },
   stylesheets: {
@@ -49,4 +45,14 @@ exports.modules = {
 
 exports.npm = {
   enabled: false
+};
+
+exports.hooks = {
+  preCompile() {
+    console.log("About to compile...");
+    return Promise.resolve();
+  },
+  onCompile(generatedFiles, changedAssets) {
+    console.log("Done.");
+  }
 };

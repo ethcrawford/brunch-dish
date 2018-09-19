@@ -34,6 +34,16 @@ exports.plugins = {
   sass: {
     mode: "native",
     precision: 8
+  },
+  postcss: {
+    processors: [
+      require("autoprefixer")([
+        ">1%",
+        "last 4 versions",
+        "Firefox ESR",
+        "not ie < 9"
+      ])
+    ]
   }
 };
 

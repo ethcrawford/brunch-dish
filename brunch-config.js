@@ -8,7 +8,11 @@ exports.files = {
     // Define compilation order (optional). The default order is alphabetical.
     // App and vendor source will be placed in different files.
     order: {
-      before: ["vendor/jquery/jquery-3.3.1.min.js"],
+      before: [
+        "vendor/jquery/jquery-3.3.1.min.js",
+        // "vendor/popper.js/popper.min.js",
+        // "vendor/bootstrap/bootstrap-4.1.3.min.js"
+      ],
       after: ["app/common.js"]
     }
   },
@@ -19,8 +23,10 @@ exports.files = {
     },
     order: {
       before: [
+        // "vendor/bootstrap/bootstrap-4.1.3.min.css",
         "vendor/bootstrap/bootstrap-reboot-4.1.3.min.css",
-        "vendor/bootstrap/bootstrap-grid-4.1.3.min.css"
+        "vendor/bootstrap/bootstrap-grid-4.1.3.min.css",
+        "vendor/font-awesome/font-awesome-4.7.0.min.css"
       ],
       after: ["app/sass/main.sass"]
     }

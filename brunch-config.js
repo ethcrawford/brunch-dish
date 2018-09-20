@@ -52,6 +52,13 @@ exports.npm = {
   enabled: false
 };
 
+// See https://brunch.io/docs/troubleshooting.
+// Prevent receiving an empty file in the output.
+exports.watcher = {
+  awaitWriteFinish: true,
+  usePolling: true
+};
+
 exports.hooks = {
   preCompile() {
     console.log("About to compile...");

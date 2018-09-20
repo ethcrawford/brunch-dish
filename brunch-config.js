@@ -1,4 +1,4 @@
-// See http://brunch.io for documentation.
+// See https://brunch.io/docs/getting-started for documentation.
 exports.files = {
   javascripts: {
     joinTo: {
@@ -37,12 +37,14 @@ exports.plugins = {
   pug: {
     pugRuntime: false
   },
+  // Sass uses LibSass. You might need a compiler for this.
   sass: {
     mode: "native",
     precision: 8
   }
 };
 
+// Simply merge all the scripts without wrapping them in modules.
 exports.modules = {
   wrapper: false,
   definition: false

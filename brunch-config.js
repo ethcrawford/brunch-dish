@@ -52,6 +52,12 @@ exports.npm = {
   enabled: false
 };
 
+// Simple static server without auto-reloading.
+// Respond with 404 for unknown paths.
+exports.server = {
+  noPushState: true
+};
+
 // See https://brunch.io/docs/troubleshooting.
 // Prevent receiving an empty file in the output.
 exports.watcher = {

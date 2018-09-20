@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "brunch watch",
+    "start": "brunch watch --server",
     "watch": "brunch watch",
     "build": "brunch build --production"
   },

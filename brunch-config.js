@@ -26,7 +26,7 @@ exports.files = {
         "vendor/css/bootstrap-4.1.3.min.css",
         "vendor/css/font-awesome-4.7.0.min.css"
       ],
-      after: ["app/sass/main.sass"]
+      after: ["app/scss/main.scss"]
     }
   }
 };

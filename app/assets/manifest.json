@@ -1,7 +1,7 @@
 {
   "short_name": "brunch-dish",
-  "name": "Brunch - ultra-fast HTML5 build tool",
-  "description": "Brunch builds, lints, compiles, concatenates and shrinks your HTML5 app in an ultra-simple way. No more Grunt / Gulp mess.",
+  "name": "brunch-dish",
+  "description": "",
   "default_locale": "en",
   "icons": [
     {

@@ -32,9 +32,6 @@ exports.files = {
 };
 
 exports.plugins = {
-  pug: {
-    pugRuntime: false
-  },
   // Sass uses LibSass. You might need a compiler for this.
   sass: {
     mode: "native",

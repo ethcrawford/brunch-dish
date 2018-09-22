@@ -1,6 +1,6 @@
 # brunch-dish
 
-Static site builder. Now version 1.3.0.
+Static site builder. Now version 2.0.0.
 
 This is a HTML5 application, built with [Brunch](http://brunch.io).
 
@@ -21,7 +21,9 @@ This is a HTML5 application, built with [Brunch](http://brunch.io).
 ## Auto-reload
 
 This build does not include automatic reload for server. If your need it
+
 - Run:
+
   - `npm i auto-reload-brunch --save-dev` — It will work out of the box.
 
   The server reload script will be placed in the output file.js. When the `npm run build` command is executed, it will be deleted.

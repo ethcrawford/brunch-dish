@@ -41,6 +41,22 @@ exports.npm = {
   enabled: false
 };
 
+exports.conventions = {
+  ignored: [
+    /\/_/,
+    /vendor\/(node|j?ruby-.+|bundle)\//,
+    /\.m(d|arkdown)$/
+  ],
+  // The following files will be simply copied to the public directory.
+  assets: [
+    /assets\//,
+    /views\//
+  ],
+  vendor: [
+    /(^bower_components|node_modules|vendor)\//
+  ]
+};
+
 // Simple static server without auto-reloading.
 // Respond with 404 for unknown paths.
 exports.server = {

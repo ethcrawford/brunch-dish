@@ -1,6 +1,6 @@
 # brunch-dish
 
-Static site builder. Now version 2.0.0.
+Static site builder. Now version 3.0.0.
 
 This is a HTML5 application, built with [Brunch](http://brunch.io).
 

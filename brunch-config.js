@@ -2,8 +2,10 @@
 exports.files = {
   javascripts: {
     joinTo: {
-      'js/app.js': /^app/,
-      'js/vendor.js': /^vendor/,
+      'js/script.js': [
+        /^app\//,
+        /^vendor\//,
+      ],
     },
     // Define compilation order (optional). The default order is alphabetical.
     // App and vendor source will be placed in different files.
@@ -18,8 +20,10 @@ exports.files = {
   },
   stylesheets: {
     joinTo: {
-      'css/app.css': /^app/,
-      'css/vendor.css': /^vendor/,
+      'css/style.css': [
+        /^app\//,
+        /^vendor\//,
+      ],
     },
     order: {
       before: [
@@ -54,7 +58,7 @@ exports.conventions = {
     /views\//,
   ],
   vendor: [
-    /(^bower_components|node_modules|vendor)\//,
+    /(^bower_components|node_modules)\//,
   ],
 };
 

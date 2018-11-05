@@ -13,8 +13,11 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "autoprefixer": "^9.3.1",
     "brunch": "^2.10.17",
     "clean-css-brunch": "^2.10.0",
+    "postcss-brunch": "^2.10.1",
+    "postcss-flexbugs-fixes": "^4.1.0",
     "uglify-js-brunch": "^2.10.0"
   }
 }

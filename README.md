@@ -1,6 +1,6 @@
 # brunch-dish
 
-Static site builder. Now version 3.1.0.
+css/js files merge tool. Now version 3.2.0.
 
 This is a HTML5 application, built with [Brunch](http://brunch.io).
 
@@ -28,7 +28,7 @@ This build does not include automatic reload for server. If your need it
 
   The server reload script will be placed in the output file.js. When the `npm run build` command is executed, it will be deleted.
 
-## Other useful products
+## Other helpers
 
 Сan be used as separate parts to not clutter the project.
 

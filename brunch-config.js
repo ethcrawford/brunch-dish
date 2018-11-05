@@ -8,7 +8,6 @@ exports.files = {
       ],
     },
     // Define compilation order (optional). The default order is alphabetical.
-    // App and vendor source will be placed in different files.
     order: {
       before: [
         // ,

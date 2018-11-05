@@ -1,7 +1,7 @@
 {
   "name": "brunch-dish",
   "description": "Static site builder",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "repository": "https://github.com/ethcrawford/brunch-dish",
   "author": "Ethan Crawford <ethcrawford@gmail.com>",
   "license": "MIT",

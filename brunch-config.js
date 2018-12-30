@@ -1,3 +1,5 @@
+"use strict";
+
 // See https://brunch.io/docs/getting-started for documentation.
 exports.files = {
   javascripts: {

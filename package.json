@@ -10,13 +10,15 @@
     "start": "brunch watch --server",
     "watch": "brunch watch",
     "build": "brunch build --production",
-    "prefix": "gulp prefix"
+    "prefix": "gulp prefix",
+    "clean": "gulp clean"
   },
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.3.1",
     "brunch": "^2.10.17",
     "clean-css-brunch": "^2.10.0",
+    "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-postcss": "^8.0.0",
     "postcss-flexbugs-fixes": "^4.1.0",

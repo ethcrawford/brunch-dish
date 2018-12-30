@@ -46,6 +46,11 @@ exports.npm = {
 };
 
 exports.plugins = {
+  // Sass uses LibSass. You might need a compiler for this.
+  sass: {
+    mode: 'native',
+    precision: 8
+  },
   postcss: {
     processors: [
       require('postcss-flexbugs-fixes')(),

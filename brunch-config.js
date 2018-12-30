@@ -61,13 +61,8 @@ exports.conventions = {
     /vendor\/(node|j?ruby-.+|bundle)\//,
     /\.m(d|arkdown)$/,
   ],
-  // The following files will be simply copied to the public directory.
-  assets: [
-    /assets\//,
-    /views\//,
-  ],
   vendor: [
-    /(^bower_components|node_modules)\//,
+    /^node_modules\//,
   ],
 };
 

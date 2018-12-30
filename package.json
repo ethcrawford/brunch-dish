@@ -1,7 +1,7 @@
 {
   "name": "brunch-dish",
-  "description": "css/js files merge tool",
-  "version": "3.2.0",
+  "description": "Project stub with Brunch & Gulp",
+  "version": "4.0.0",
   "repository": "https://github.com/ethcrawford/brunch-dish",
   "author": "Ethan Crawford <ethcrawford@gmail.com>",
   "license": "MIT",

@@ -1,6 +1,6 @@
-# brunch-dish
+# brunch-dish (Brunch dish &amp; Soda machine)
 
-css/js files merge tool. Now version 3.2.0.
+Project stub with Brunch & Gulp. Now version 4.0.0.
 
 This is a HTML5 application, built with [Brunch](http://brunch.io).
 

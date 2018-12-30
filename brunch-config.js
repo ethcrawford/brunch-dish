@@ -49,21 +49,7 @@ exports.plugins = {
   // Sass uses LibSass. You might need a compiler for this.
   sass: {
     mode: 'native',
-    precision: 8
-  },
-  postcss: {
-    processors: [
-      require('postcss-flexbugs-fixes')(),
-      require('autoprefixer')({
-        browsers: [
-          '> 1%',
-          'last 4 versions',
-          'Firefox ESR',
-          'not ie < 9',
-        ],
-        flexbox: 'no-2009',
-      }),
-    ],
+    precision: 8,
   },
 };
 
